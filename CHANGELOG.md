@@ -1,6 +1,42 @@
 # Release Notes for 10.x
 
-## [Unreleased](https://github.com/laravel/framework/compare/v10.47.0...10.x)
+## [Unreleased](https://github.com/laravel/framework/compare/v10.48.4...10.x)
+
+## [v10.48.4](https://github.com/laravel/framework/compare/v10.48.3...v10.48.4) - 2024-03-21
+
+* [10.x] Fix `Collection::concat()` return type by @axlon in https://github.com/laravel/framework/pull/50669
+* [10.x] Fix command alias registration and usage by @crynobone in https://github.com/laravel/framework/pull/50695
+
+## [v10.48.3](https://github.com/laravel/framework/compare/v10.48.2...v10.48.3) - 2024-03-15
+
+- Re-tag version
+
+## [v10.48.2](https://github.com/laravel/framework/compare/v10.48.1...v10.48.2) - 2024-03-12
+
+* [10.x] Update mockery conflict to just disallow the broken version by [@GrahamCampbell](https://github.com/GrahamCampbell) in https://github.com/laravel/framework/pull/50472
+* [10.x] Conflict with specific release by [@driesvints](https://github.com/driesvints) in https://github.com/laravel/framework/pull/50473
+* [10.x] Fix for attributes being escaped on Dynamic Blade Components by [@pascalbaljet](https://github.com/pascalbaljet) in https://github.com/laravel/framework/pull/50471
+* [10.x] Revert PR 50403 by [@driesvints](https://github.com/driesvints) in https://github.com/laravel/framework/pull/50482
+
+## [v10.48.1](https://github.com/laravel/framework/compare/v10.48.0...v10.48.1) - 2024-03-12
+
+* [10.x] Add conflict for Mockery v1.6.8 by [@driesvints](https://github.com/driesvints) in https://github.com/laravel/framework/pull/50468
+
+## [v10.48.0](https://github.com/laravel/framework/compare/v10.47.0...v10.48.0) - 2024-03-12
+
+* fix: allow null, string and string array as allowed tags by [@maartenpaauw](https://github.com/maartenpaauw) in https://github.com/laravel/framework/pull/50409
+* [10.x] Allow `Expression` at more places in Query Builder by [@pascalbaljet](https://github.com/pascalbaljet) in https://github.com/laravel/framework/pull/50402
+* [10.x] Sleep syncing by [@timacdonald](https://github.com/timacdonald) in https://github.com/laravel/framework/pull/50392
+* [10.x] Cleaning Trait on multi-lines by [@gcazin](https://github.com/gcazin) in https://github.com/laravel/framework/pull/50413
+* fix: incomplete type for Builder::from property by [@sebj54](https://github.com/sebj54) in https://github.com/laravel/framework/pull/50426
+* [10.x] After commit callback throwing an exception causes broken transactions afterwards by [@oprypkhantc](https://github.com/oprypkhantc) in https://github.com/laravel/framework/pull/50423
+* [10.x] Anonymous component bound attribute values are evaluated twice by [@danharrin](https://github.com/danharrin) in https://github.com/laravel/framework/pull/50403
+* [10.x] Fix for sortByDesc ignoring multiple attributes by [@TWithers](https://github.com/TWithers) in https://github.com/laravel/framework/pull/50431
+* [10.x] Allow sync with carbon to be set from fake method by [@abenerd](https://github.com/abenerd) in https://github.com/laravel/framework/pull/50450
+* [10.x] Improves `Illuminate\Mail\Mailables\Envelope` docblock by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/framework/pull/50448
+* [10.x] Incorrect return in `FileSystem.php` by [@gcazin](https://github.com/gcazin) in https://github.com/laravel/framework/pull/50459
+* [10.x] fix return types by [@imahmood](https://github.com/imahmood) in https://github.com/laravel/framework/pull/50461
+* fix: phpstan issue - right side of || always false by [@Carnicero90](https://github.com/Carnicero90) in https://github.com/laravel/framework/pull/50453
 
 ## [v10.47.0](https://github.com/laravel/framework/compare/v10.46.0...v10.47.0) - 2024-03-05
 
